@@ -113,14 +113,14 @@ require('bugpack').context("*", function(bugpack) {
         //-------------------------------------------------------------------------------
 
         /**
-         * @returns {Map.<string, Config>}
+         * @return {Map.<string, Config>}
          */
         getBuiltConfigMap: function() {
             return this.builtConfigMap;
         },
 
         /**
-         * @returns {Path}
+         * @return {Path}
          */
         getConfigPath: function() {
             return this.configPath;
@@ -134,7 +134,7 @@ require('bugpack').context("*", function(bugpack) {
         },
 
         /**
-         * @returns {Map.<string, Config>}
+         * @return {Map.<string, Config>}
          */
         getLoadedConfigMap: function() {
             return this.loadedConfigMap;
